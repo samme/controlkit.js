@@ -10,20 +10,20 @@
 // Shared
 //-----------------------------------------------------------------------------------------//
 
-$default-font-family: Arial,sans-serif;
-$default-text-shadow: 1px 1px #000;
-$default-border-radius: 2px;
+$default-font-family: -apple-system,system,sans-serif;
+$default-text-shadow: none;
+$default-border-radius: 3px;
 
 $color:
-  #1A1A1A,
-  #343434,
-  #2E2E2E,
-  #262626,
+  #111,
+  #444,
+  #333,
+  #222,
   #000;
 
 $label-font-size: 11px;
 $label-font-weight: bold;
-$label-text-shadow: 0 1px #000;
+$label-text-shadow: $default-text-shadow;
 
 //-----------------------------------------------------------------------------------------//
 // Comps
@@ -84,7 +84,7 @@ $menu-button-font-family: $default-font-family;
 $menu-button-font-size: 10px;
 $menu-button-font-weight: bold;
 $menu-button-color: #aaaaaa;
-$menu-button-text-shadow:  0 -1px #000;
+$menu-button-text-shadow:  $default-text-shadow;
 $menu-button-text-transform: uppercase;
 // button hover
 $menu-button-hover-background: #000000;
@@ -184,7 +184,7 @@ $range-label-text-align: center;
 $range-label-text-transform: uppercase;
 $range-label-font-size: 10px;
 $range-label-font-weight: bold;
-$range-label-text-shadow: 1px 1px #1a1a1a;
+$range-label-text-shadow: $default-text-shadow;
 
 //-----------------------------------------------------------------------------------------//
 // Button
@@ -198,7 +198,7 @@ $button-color: #fff;
 $button-font-family: $default-font-family;
 $button-font-size: 10px;
 $button-font-weight: bold;
-$button-text-shadow: 0 1px #000;
+$button-text-shadow: $default-text-shadow;
 $button-text-transform: uppercase;
 $button-box-shadow: 0 0 0 1px $component-border-color inset, -1px 2px 0 0 #4a4a4a inset;
 $button-gradient: #404040 0%, #3b3b3b 100%;
@@ -242,7 +242,7 @@ $slider-slot-border-radius: $default-border-radius;
 $slider-slot-background: #1e2224;
 // handle
 $slider-handle-background:#b32435;
-$slider-handle-gradient: rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 100%;
+$slider-handle-gradient: none;
 $slider-handle-box-shadow: 0 1px 0 0 #0f0f0f;
 
 /*-------------------------------------------------------------------------------------
